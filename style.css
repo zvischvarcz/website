@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+body {
+    background-image: url(background_img.png);
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+   } 
+
+ul {
+    list-style-type: none;
+}
+
+
+#navbar {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top:0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.navigation_buttons {
+    display: inline;
+    font-size: 20px;
+    font-family: cursive;
+
+  }
+  
+.navigation_buttons {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation_buttons:hover {
+    background-color: #111;
+  }
+
+#spacer {
+    padding: 4%;
+}
+
+#welcometext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 70px; */
+    border-style: dashed;
+    border-color: black;
+    border-width: 5px;
+
+}
+
+.welcome {
+    font-size: 90px;
+}
+  
+h1 {
+    font-size: 50px;
+    font-family: 'Bruno Ace', cursive;
+}
+
+.title {
+    border-style: dashed;
+    border-color: black;
+    border-width: 5px;
+    padding: 10px;
+}
+
+p {
+    font-size: 40px;
+    font-family: 'Lobster Two', cursive;
+}
+
+#contact_list {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contact_email {
+    background-image: url(email_logo.jpg);
+    border-radius: 25px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+}
+#contact_no {
+    background-image: url(phone_img.png);
+    background-size: 100%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+}
+
+#contact_lin {
+    background-image: url(linkedin_img.png);
+    background-size: 100%;
+    border-radius: 25px;
+    display: flex;
+    /* color: white; */
+    flex-direction: column;
+    padding: 20px 40px 20px 40px;
+}
+
+a {
+    color: black;
+}
+
+#code_img {
+    max-width: 30%;  
+    height: auto;  
+    padding: 30px;
+}
+
+#book_img {
+    max-width: 30%;  
+    height: auto;  
+    padding: 30px;
+}
+
+#burjk {
+    max-width: 30%;  
+    height: auto;  
+    padding: 30px;
+}
+
